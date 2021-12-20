@@ -1,3 +1,11 @@
+/* === global styles =============== */
+:root .list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -5,6 +13,24 @@ body {
   color: #757575;
   background-color: #ffffff;
 }
-.list {
-  list-style: none;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+/* === header =================== */
+.header-link-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+/* === footer =================== */
