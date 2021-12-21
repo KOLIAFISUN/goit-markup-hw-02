@@ -1,5 +1,13 @@
 /* === global styles =============== */
-:root .list {
+:root {
+  --main-color: #212121;
+  --alt-color: #2196f3;
+  --description-color: #757575;
+  --fone-color: #ffffff;
+  --rgba-color: rgba(100%, 100%, 100%, 60%);
+  --background-color: #2f303a;
+}
+.list {
   list-style: none;
 }
 .link {
@@ -10,8 +18,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--main-color);
+  background-color: #e5e5e5;
 }
 
 .visually-hidden {
