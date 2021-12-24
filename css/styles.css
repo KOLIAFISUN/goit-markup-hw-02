@@ -4,9 +4,10 @@
   --main-color: #212121;
   --alt-color: #2196f3;
   --description-color: #757575;
-  --fone-color: #ffffff;
+  --white-color: #ffffff;
   --rgba-color: rgba(100%, 100%, 100%, 60%);
   --background-color: #2f303a;
+  --black-color: #000000;
 }
 .list {
   list-style: none;
@@ -19,8 +20,8 @@
 .link:focus {
   color: var(--alt-color);
 }
-.button {
-  cursor: pointer;
+.link.current {
+  color: var(--alt-color);
 }
 .button:hover,
 .button:focus {
@@ -44,14 +45,15 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* === header =================== */
+/* ============================ index.html ================== */
+/* === header ==== */
 
 .header-link-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: var(--black-color);
 }
 .logo {
   color: var(--alt-color);
@@ -73,7 +75,7 @@ body {
   color: var(--description-color);
 }
 
-/* === main section hero ===================== */
+/* === main section hero */
 
 .main-section-hero {
   width: 1600px;
@@ -86,7 +88,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: white;
+  color: var(--white-color);
 }
 .main-section-hero-button-container {
   width: 200px;
@@ -101,12 +103,12 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--alt-color);
 }
 .main-section-hero-button:hover,
 .main-section-hero-button:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: #188ce8;
   cursor: pointer;
 }
@@ -117,11 +119,11 @@ body {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 .with-us-text {
   line-height: 24px;
-  color: #757575;
+  color: var(--description-color);
 }
 /* main section what are we doing */
 
@@ -130,7 +132,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--main-color);
 }
 /* === main section our team ==== */
 
@@ -139,53 +141,94 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--main-color);
 }
 .our-team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #212121;
+  color: var(--main-color);
 }
 .our-team-profession {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #757575;
+  color: var(--description-color);
 }
 
 /* === footer =================== */
 
 .footer-section {
   width: 1600px;
-  background: #2f303a;
+  background: var(--background-color);
 }
 .footer-link-logo {
   font-family: 'Raleway', sans-seri;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-section-address-text {
   line-height: 24px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-section-address-mail {
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba-color);
+}
+.footer-section-address-mail:hover,
+.footer-section-address-mail:focus {
+  color: var(--white-color);
 }
 .footer-section-address-tel {
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-section-address-mail:hover,
-.footer-section-address-mail:focus {
-  color: #ffffff;
+  color: var(--rgba-color);
 }
 .footer-section-address-tel:hover,
 .footer-section-address-tel:focus {
-  color: #ffffff;
+  color: var(--white-color);
+}
+/* ========================== portfolio ==================== */
+.main-section-portfolio-buttons-list {
+  background-color: #f5f4fa;
+}
+.button-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--alt-color);
+}
+.button-all:hover,
+.button-all:focus {
+  color: var(--white-color);
+  background-color: #188ce8;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--main-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--alt-color);
+}
+
+.portfolio-work-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.portfolio-work-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--description-color);
 }
