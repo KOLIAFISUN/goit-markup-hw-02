@@ -15,6 +15,7 @@
 .link {
   text-decoration: none;
   color: var(--main-color);
+  font-style: inherit;
 }
 .link:hover,
 .link:focus {
@@ -50,9 +51,9 @@ body {
 
 .header-link-logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--black-color);
 }
 .logo {
@@ -63,14 +64,14 @@ body {
 .link-nav-portfolio,
 .link-nav-contacts {
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .header-link-mail,
 .header-link-tel {
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--description-color);
 }
@@ -78,13 +79,12 @@ body {
 /* === main section hero */
 
 .main-section-hero {
-  width: 1600px;
   background-color: var(--background-color);
 }
 .main-section-hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -97,9 +97,10 @@ body {
 }
 
 .main-section-hero-button {
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -115,44 +116,43 @@ body {
 /* === main section with us ===== */
 
 .with-us-title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-color);
 }
 .with-us-text {
-  line-height: 24px;
+  line-height: 1.92;
   color: var(--description-color);
 }
 /* main section what are we doing */
 
 .what-are-we-doing-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   color: var(--main-color);
 }
 /* === main section our team ==== */
 
 .our-team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   color: var(--main-color);
 }
 .our-team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   color: var(--main-color);
 }
 .our-team-profession {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   color: var(--description-color);
 }
@@ -160,22 +160,24 @@ body {
 /* === footer =================== */
 
 .footer-section {
-  width: 1600px;
   background: var(--background-color);
+}
+.footer-section-address {
+  font-style: inherit;
 }
 .footer-link-logo {
   font-family: 'Raleway', sans-seri;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--white-color);
 }
 .footer-section-address-text {
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--white-color);
 }
 .footer-section-address-mail {
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--rgba-color);
 }
 .footer-section-address-mail:hover,
@@ -183,7 +185,7 @@ body {
   color: var(--white-color);
 }
 .footer-section-address-tel {
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--rgba-color);
 }
 .footer-section-address-tel:hover,
@@ -195,9 +197,10 @@ body {
   background-color: #f5f4fa;
 }
 .button-all {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   cursor: pointer;
   color: var(--white-color);
@@ -209,9 +212,10 @@ body {
   background-color: #188ce8;
 }
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   cursor: pointer;
   color: var(--main-color);
@@ -222,13 +226,13 @@ body {
 }
 
 .portfolio-work-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-work-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   color: var(--description-color);
 }
